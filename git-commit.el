@@ -271,6 +271,8 @@ default comments in git commit messages"
       (2 'git-commit-note-address-face)
       (3 'git-commit-note-face)
       (4 'git-commit-note-brace-face))
+     ("^\\(\\+.*\\)$" (1 'diff-added))
+     ("^\\(\\-.*\\)$" (1 'diff-removed))
      (".*"
       (0 'git-commit-text-face)))))
 
